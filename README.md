@@ -1,6 +1,9 @@
 # Software Quality Assurance (SQA) and Manual Testing
 
 ## 📜 Introduction
+Manual Testing Project for Evershop Demo Website
+
+
 Software Quality Assurance (SQA) is a systematic process to ensure that software meets predefined standards and requirements. Manual testing plays a crucial role in verifying software functionality by simulating user behavior without automation.
 
 ---
@@ -22,18 +25,6 @@ Software Quality Assurance (SQA) is a systematic process to ensure that software
    - Tracking and resolving issues to ensure quality.
 
 ---
-
-## 🛠️ Manual Testing in SQA
-
-### What is Manual Testing?
-Manual testing is the process of manually validating software for defects, ensuring it behaves as expected. Testers execute test cases without using automated tools.
-
-### Key Stages of Manual Testing:
-- **Unit Testing**: Testing individual components or modules.
-- **Integration Testing**: Ensuring different modules work together.
-- **System Testing**: Validating the entire system as a whole.
-- **User Acceptance Testing (UAT)**: Ensuring the software meets end-user requirements.
-
 ### Advantages:
 - Detects user interface issues.
 - Simulates real-world usage scenarios.
@@ -47,11 +38,11 @@ Manual testing is the process of manually validating software for defects, ensur
 
 ## 📂 Resources and Tools
 
-- **Test Case Management Tools**: TestRail, Zephyr
-- **Bug Tracking Tools**: Jira, Bugzilla
+- **Test Case Management Tools**: Microsoft Excel
+- **Bug Tracking Tools**: Jira
 - **Learning Resources**:
-  - [ISTQB Foundation Level](https://www.istqb.org/)
-  - [Software Testing Tutorials](https://www.softwaretestinghelp.com/)
+  
+  - [The testing Website:](https://demo.evershop.io/)
 
 ---
 
