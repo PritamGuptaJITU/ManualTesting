@@ -1,0 +1,113 @@
+{
+	"info": {
+		"_postman_id": "dd7d27b8-da8e-4693-a52e-7e96b50a6ba1",
+		"name": "live test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33214036"
+	},
+	"item": [
+		{
+			"name": "task1",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "https://ria.zayedabdullah.com/ostad/simpleblog/api/v1/blogs/",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "testpassword1234",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "testuser2",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ria.zayedabdullah.com/ostad/simpleblog/api/v1/blogs/",
+					"protocol": "https",
+					"host": [
+						"ria",
+						"zayedabdullah",
+						"com"
+					],
+					"path": [
+						"ostad",
+						"simpleblog",
+						"api",
+						"v1",
+						"blogs",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://ria.zayedabdullah.com/ostad/simpleblog/api/v1/blogs/",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "testpassword1234",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "testuser",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"My New Blog\",\r\n  \"content\": \"This is the content of my new blog.\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://ria.zayedabdullah.com/ostad/simpleblog/api/v1/blogs/",
+					"protocol": "https",
+					"host": [
+						"ria",
+						"zayedabdullah",
+						"com"
+					],
+					"path": [
+						"ostad",
+						"simpleblog",
+						"api",
+						"v1",
+						"blogs",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
